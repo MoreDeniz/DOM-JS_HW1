@@ -1,0 +1,42 @@
+body {
+    background-color: #c1f1f2;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #e6f6f5;
+    color: #050d74;
+}
+
+th, td {
+    border: 1px solid #5c77d8;
+    text-align: left;
+    padding: 8px;
+}
+
+h2 {
+    color: #050d74;
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #58a7aa;
+    color: white;
+}
+
+button:disabled {
+    background-color: #efe4e6;
+}
+
+button:hover {
+    background-color: #2d6668;
+} 
+
+button:disabled:hover {
+    background-color: #efe4e6;
+} 
